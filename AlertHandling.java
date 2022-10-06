@@ -20,7 +20,7 @@ public class AlertHandling {
 	    
 	    WebDriverWait wait = new WebDriverWait(driver,5);
 	    Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-	    
+	    System.out.println("Code changed");
 	    driver.switchTo().alert().accept();
 
 	}
