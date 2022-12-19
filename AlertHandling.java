@@ -20,8 +20,16 @@ public class AlertHandling {
 	    
 	    WebDriverWait wait = new WebDriverWait(driver,5);
 	    Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+
 	    System.out.println("Changes to alert handling");
 	    
+
+
+	    System.out.println("changes to alert handling");
+	    System.out.println("Code changed");
+	    System.out.println("Code edit by Sohel");
+
+
 	    driver.switchTo().alert().accept();
 
 	}
